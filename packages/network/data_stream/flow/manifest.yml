@@ -1,0 +1,8 @@
+title: Flow
+release: experimental
+type: logs
+streams:
+  - input: packet
+    title: Flow traffic
+    description: Sniff Flow Traffic
+    template_path: flow.yml.hbs
